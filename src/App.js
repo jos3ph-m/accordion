@@ -9,7 +9,7 @@ function App() {
         <h3>questions and answers about login</h3>
         <section className="info">
           {questions.map((question) => {
-            return <SingleQuestion key={question.id} />;
+            return <SingleQuestion key={question.id} {...question} />;
           })}
         </section>
       </div>
