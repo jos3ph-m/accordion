@@ -7,6 +7,7 @@ function App() {
     <main>
       <div className="container">
         <h3>questions and answers about login</h3>
+        <section className="info"></section>
       </div>
     </main>
   );
