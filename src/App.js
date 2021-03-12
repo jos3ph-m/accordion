@@ -3,7 +3,7 @@ import data from './data';
 import SingleQuestion from './Question';
 function App() {
   const [questions, setQuestions] = useState(data);
-  return <h2>accordion project setup</h2>;
+  return <main>accordion project setup</main>;
 }
 
 export default App;
